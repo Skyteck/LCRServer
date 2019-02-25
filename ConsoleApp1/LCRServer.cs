@@ -12,7 +12,7 @@ namespace LCR
     {
         public NetManager server;
         private readonly NetPacketProcessor _netPacketProcessor = new NetPacketProcessor();
-        List<LCRLibrary.LCRLobby> GameList = new List<LCRLobby>();
+        public List<LCRLibrary.LCRLobby> GameList = new List<LCRLobby>();
         private string ServerSignature
         {
             get
